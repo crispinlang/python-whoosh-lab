@@ -1,5 +1,18 @@
-IR/pmid2contents/
-IR/pubmed_index
+
+
+
+
+### Folders to ignore:
+
+day1/pmid2contents/
+day1/pubmed_index
+
+### Files to ignore
 
 .DS_Store
 **/.DS_Store
+
+day2/squad/squad_multiple_contexts.json
+
+day3/Continued_training/shakespeare.txt
+

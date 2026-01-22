@@ -17,7 +17,7 @@ embeddings_model_name='intfloat/multilingual-e5-base'
 chunk_size = 500
 
 #chunk_overlap = 50
-chunk_overlap = 100
+chunk_overlap = 50
 # increasing this increased the F1 score by 
 
 # LLM generator
