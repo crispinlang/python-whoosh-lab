@@ -21,7 +21,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 max_seq_length = 7000
 load_in_4bit = True
 
-sum_pubmed_base_path = "/home/ahmad/Resources/SumPubMed/sumpubmed-master"
+sum_pubmed_base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sumpubmed')
 texts_path = os.path.join(sum_pubmed_base_path, 'abstract')# training on full text takes too much time
 shorter_abstract_path = os.path.join(sum_pubmed_base_path, 'shorter_abstract')
 

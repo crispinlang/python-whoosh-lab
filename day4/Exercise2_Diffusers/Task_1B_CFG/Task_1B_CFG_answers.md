@@ -13,5 +13,3 @@
 1. Running the same prompt again yielded better results, with s=7.5 already producing the desired output quite closely.
 
 - Conclusion: Test out the guidance scale across a range of values to get the best result, instead of just using a standard parameter, assuming it will work fine.
-
-

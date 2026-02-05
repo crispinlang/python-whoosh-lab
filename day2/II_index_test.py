@@ -38,7 +38,7 @@ def get_f1(true_doc: set, pred_doc: set) -> float:
 
 if __name__ == "__main__":
     version = 1
-    embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name, cache_folder=models_path)
+    embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name, cache_folder=models_path, model_kwargs={'device': 'cpu'})
     chroma_client = chromadb.PersistentClient(persist_path)
     db = Chroma(persist_directory=persist_path,
                 embedding_function=embeddings,

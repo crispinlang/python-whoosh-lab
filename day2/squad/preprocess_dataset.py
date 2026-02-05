@@ -8,7 +8,7 @@ sys.path.append(parent_dir)
 import json
 import pandas as pd
 from collections import defaultdict
-from RAG.I_constants import source_path
+from day2.I_constants import source_path
 
 squad_path = os.path.join(current_dir, 'train-00000-of-00001.parquet')
 os.makedirs(source_path, exist_ok=True)
